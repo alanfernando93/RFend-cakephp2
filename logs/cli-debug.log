@@ -1,0 +1,52 @@
+2017-07-28 07:51:04 Notice: Notice (8): Array to string conversion in [/var/www/html/workspace/cakephp3/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 355]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+sprintf - [internal], line ??
+Phinx\Db\Table::addColumn() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 355
+Settings::change() - ROOT/config/Migrations/20170728074723_settings.php, line 34
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 120
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 327
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 303
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 165
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 64
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 264
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 869
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 223
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 130
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 472
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 156
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-07-28 07:51:17 Notice: Notice (8): Array to string conversion in [/var/www/html/workspace/cakephp3/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 355]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+sprintf - [internal], line ??
+Phinx\Db\Table::addColumn() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 355
+Settings::change() - ROOT/config/Migrations/20170728074723_settings.php, line 34
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 120
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 327
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 303
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 113
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 165
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 64
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 264
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 869
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 223
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 130
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 472
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 156
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 230
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
